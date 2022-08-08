@@ -1,0 +1,20 @@
+Intermediate
+
+Write a program that counts the number of occurrences of "11" in an input sequence of zeros and ones. 
+The input of the program is just the sequence and it should return a single number, which is the number of occurrences of "11".
+
+def count11(seq):
+    n = len(seq)
+    print(n)
+    cnt = 0
+    # i=0;
+    print(cnt)
+    # print(i) 
+    for i in range(0, n - 1):
+        if seq[i] == 1 and seq[i + 1] == 1:
+            cnt += 1
+            # i+=1;
+    return cnt
+
+print(count11([0, 0, 1, 1, 1, 0])) # this should print 2
+
