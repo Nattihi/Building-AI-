@@ -1,0 +1,6 @@
+In Python code, we could write the above as
+
+x1 = [34.0, 10.0]
+x2 = [49.0, 50.0]
+D = math.sqrt((x1[0] - x2[0])**2 + (x1[1] - x2[1])**2)
+
